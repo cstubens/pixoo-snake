@@ -13,24 +13,22 @@ Snake is a classic arcade game where you control a snake that grows longer as it
 </tr>
 </table>
 
-- Use the arrow buttons to control the direction of the snake
-- Eat the red food to grow longer and increase your score
-- Avoid colliding with yourself
-- The snake can wrap around the edges of the screen
-
 ## Development Setup on MacOS
 
-1. Clone this repository
-2. Run the setup script to install dependencies:
-   ```bash
-   ./setup.sh
-   ```
-   This will install Homebrew (if needed), Java 17, Android Studio, set up Android SDK, create an Android Virtual Device, and configure environment variables.
+```bash
+# Clone
+git clone git@github.com:cstubens/pixoo-snake.git
+cd pixoo-snake
 
-3. After setup completes:
-   - Restart your terminal to apply environment variables
-   - Open Android Studio and complete the initial setup
-   - Run the app with `./run_in_emulator.sh`
+# Install dependencies: Java, Android Studio, Android SDK, set env variables, etc.
+# This is tested only on MacOS and has NOT been tested with a fresh machine since it was written.
+# I wouldnt be suprised if this breaks -__-'
+./setup.sh
+```
+
+After setup completes:
+- Open Android Studio and complete the initial setup, following instructions from `setup.sh`.
+- Run the app with `./run_in_emulator.sh`
 
 ## Emulator Management
 
@@ -42,7 +40,7 @@ The following scripts help manage the Android emulator:
 
 ## Building
 
-Build a local APK:
+Build an APK:
 ```bash
 ./build_apk.sh
 ```
