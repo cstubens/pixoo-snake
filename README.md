@@ -21,7 +21,7 @@ git clone git@github.com:cstubens/pixoo-snake.git
 cd pixoo-snake
 
 # Install dependencies: Java, Android Studio, Android SDK, set env variables, etc.
-# This is tested only on MacOS and has NOT been tested with a fresh machine since it was written.
+# MacOS only. Has NOT been tested with a fresh machine since it was written.
 # I wouldnt be suprised if this breaks -__-'
 ./setup.sh
 ```
